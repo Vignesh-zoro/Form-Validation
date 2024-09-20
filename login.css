@@ -1,0 +1,105 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+   background-color: aqua;
+   font-family: sans-serif;
+}
+#formName
+{
+    max-width: 320px;
+    margin: 10vh auto 0 auto;
+    background-color: black;
+    color: whitesmoke;
+    padding: 35px;
+    border-radius: 10px;
+}
+h1
+{
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+label
+{
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+#username,#email,#password,#cpassword
+{
+    outline: 0;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 80%;
+    border: none;
+}
+button
+{
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: yellow;
+    padding: 15px;
+    width: 58%;
+    margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.reg
+{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+p
+{
+    font-weight: 600;
+
+}
+a
+{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 600;
+}
+#username-error.error
+{
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+#username.error
+{
+    border:3px solid red;
+}
+#username.valid
+{
+    border: 3px solid rgb(77, 224, 77);
+}
+#password-error.error
+{
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+#password.error
+{
+    border:3px solid red;
+}
+#password.valid
+{
+    border: 3px solid rgb(77, 224, 77);
+}
